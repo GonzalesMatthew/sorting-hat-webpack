@@ -1,4 +1,4 @@
-import renderToDom from '../helpers/errorMessage';
+import renderToDom from '../helpers/renderToDom';
 import houseColors from '../helpers/data/houseColors';
 
 const cardCreator = (divId, array) => {
