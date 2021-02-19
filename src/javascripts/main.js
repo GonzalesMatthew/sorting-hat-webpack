@@ -1,15 +1,14 @@
 // USE WITH FIREBASE AUTH
 // import checkLoginStatus from './helpers/auth';
 
-import '../styles/main.scss';
-import printBody from './components/bodyHtml';
-import showForm from './components/showForm';
+import initialScreen from './components/initialScreen';
 import domEvents from './components/domEvents';
 
+import '../styles/main.scss';
+
 const init = () => {
-  printBody();
+  initialScreen();
   domEvents();
-  showForm();
 };
 
 init();
